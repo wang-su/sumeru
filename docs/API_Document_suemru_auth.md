@@ -146,7 +146,7 @@ userInfo对像结构如下
 			"expires":1381213910081  
 		}
 
-> 其中info字段的内容，来源于注册时提供的userInfo, 参见: [sumeru.auth.register](/#sumeru.auth.register)
+> 其中info字段的内容，来源于注册时提供的userInfo, 参见: [sumeru.auth.register](#sumeru.auth.register)
 
 ##sumeru.auth.isLogin()  :  *Deprecated*
 
@@ -211,7 +211,7 @@ EXAMPLE CODE:
 
 EXAMPLE CODE:
 
-参见：[sumeru.auth.registerValidate](/#sumeru.auth.registerValidate)
+参见：[sumeru.auth.registerValidate](#sumeru.auth.registerValidate)
 
 > 这个方法的需要目标authMethod的实现提供支持，一些第三方法登陆过程的实现可能不包含这个方的实现，对于不实现的情况，将返回错误对像 {code:1000,msg:'METHOD UNSUPPORTED'}
 
